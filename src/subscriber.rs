@@ -1,12 +1,13 @@
-extern crate rustc_serialize;
+#[macro_use]
 extern crate rosrust;
-mod Hello;
 use rosrust::Ros;
 use std::{thread, time};
 
+rosmsg_include!();
+
 fn main() {
-    let mut ros = Ros::new("node_name2").unwrap();
-    ros.subscribe("some_topic", |v: Hello::Hello| println!("{}", v.hello)).unwrap();
+    let mut ros = Ros::new("subscriber_rs").unwrap();
+    ros.subscribe("chat", |v: msg::std_msgs::String| println!("{}", v.data)).unwrap();
     loop {
         thread::sleep(time::Duration::from_secs(100));
     }
