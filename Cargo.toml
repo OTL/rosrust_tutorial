@@ -5,8 +5,7 @@ authors = ["Takashi Ogura <t.ogura@gmail.com>"]
 
 [dependencies]
 
-#rosrust = {git = "https://github.com/adnanademovic/rosrust"}
-rosrust = {git = "https://github.com/OTL/rosrust", branch = "fix_for_string_msg"}
+rosrust = {git = "https://github.com/adnanademovic/rosrust"}
 serde = "1.0.2"
 serde_derive = "1.0.2"
 
@@ -19,5 +18,4 @@ name = "subscriber"
 path = "src/subscriber.rs"
 
 [build-dependencies]
-#rosrust = {git = "https://github.com/adnanademovic/rosrust"}
-rosrust = {git = "https://github.com/OTL/rosrust", branch = "fix_for_string_msg"}
+rosrust = {git = "https://github.com/adnanademovic/rosrust"}
