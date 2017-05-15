@@ -5,9 +5,10 @@ authors = ["Takashi Ogura <t.ogura@gmail.com>"]
 
 [dependencies]
 
-rosrust = {git = "https://github.com/adnanademovic/rosrust"}
+rosrust = "0.5.0"
 serde = "1.0.2"
 serde_derive = "1.0.2"
+env_logger = "0.4.2"
 
 [[bin]]
 name = "publisher"
@@ -18,4 +19,4 @@ name = "subscriber"
 path = "src/subscriber.rs"
 
 [build-dependencies]
-rosrust = {git = "https://github.com/adnanademovic/rosrust"}
+rosrust = "0.5.0"
