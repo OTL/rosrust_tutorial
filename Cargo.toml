@@ -2,6 +2,7 @@
 name = "rosrust_tutorial"
 version = "0.1.0"
 authors = ["Takashi Ogura <t.ogura@gmail.com>"]
+build = true
 
 [dependencies]
 
