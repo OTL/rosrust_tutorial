@@ -1,3 +1,7 @@
+# This is old repo
+
+See https://github.com/adnanademovic/rosrust/tree/master/examples
+
 # rosrust tutorial
 
 Tutorial code of [rosrust](https://github.com/adnanademovic/rosrust).
