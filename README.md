@@ -1,6 +1,6 @@
-# This is old repo
+# [Warning] This is old repo. Don't use!
 
-See https://github.com/adnanademovic/rosrust/tree/master/examples
+You have to see https://github.com/adnanademovic/rosrust/tree/master/examples instead of this.
 
 # rosrust tutorial
 
